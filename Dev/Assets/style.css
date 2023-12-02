@@ -9,6 +9,10 @@ body {
     background: papayawhip;
 }
 
+header {
+    background-color: #ffdca2;
+}
+
 header, footer {
     display: flex;
     flex-direction: row;
@@ -27,11 +31,30 @@ p {
 }
 
 .subtitle {
-    flex: 1 1 200px;
+    flex: 1 1 50px;
+}
+
+.subtitle p {
+    display: flex;
+    justify-content: right;
+}
+
+.projectTitle {
+    margin-top: 160px;
 }
 
 .content {
     flex: 3 1 300px;
+}
+
+.content p {
+    border-left: 2px solid #333;
+    margin-bottom: 50px;
+}
+
+.projects {
+    border-left: 2px solid #333;
+    margin-bottom: 30px;
 }
 
 .contactInfo {
@@ -44,6 +67,7 @@ ul {
 
 li {
     display: inline-block;
+    padding: 0px 10px;
 }
 
 a {
