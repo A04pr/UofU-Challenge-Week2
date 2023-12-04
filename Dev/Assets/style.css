@@ -20,41 +20,27 @@ header, footer {
     padding: 15px;
 }
 
-main {
+h3 {
     display: flex;
-    flex-direction: row;
-    margin: 50px 20px;
+    justify-content: right;
+    min-width: 9ch;
+    border-right: #333 solid 2px;
+    padding: 5px 10px 5px 0px;
 }
 
 p {
     padding: 10px;
 }
 
-.subtitle {
-    flex: 1 1 50px;
-}
-
-.subtitle p {
+.aboutMe, .projects {
     display: flex;
-    justify-content: right;
-}
-
-.projectTitle {
-    margin-top: 160px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8vh 0px 8vh 18vw;
 }
 
 .content {
-    flex: 3 1 300px;
-}
-
-.content p {
-    border-left: 2px solid #333;
-    margin-bottom: 50px;
-}
-
-.projects {
-    border-left: 2px solid #333;
-    margin-bottom: 30px;
+    margin: 0px 8vw 0px 8vw;
 }
 
 .contactInfo {
