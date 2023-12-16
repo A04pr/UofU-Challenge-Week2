@@ -43,6 +43,18 @@ p {
     margin: 0px 8vw 0px 8vw;
 }
 
+.headliner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .contactInfo {
     padding: 25px 10px
 }
